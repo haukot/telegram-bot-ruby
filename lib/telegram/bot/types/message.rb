@@ -60,6 +60,7 @@ module Telegram
         attribute :voice_chat_ended, VoiceChatEnded
         attribute :voice_chat_participants_invited, VoiceChatParticipantsInvited
         attribute :reply_markup, InlineKeyboardMarkup
+        attribute :web_app_data, WebAppData
 
         alias to_s text
       end

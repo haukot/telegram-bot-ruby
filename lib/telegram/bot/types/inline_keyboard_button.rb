@@ -10,6 +10,7 @@ module Telegram
         attribute :switch_inline_query_current_chat, String
         attribute :callback_game, CallbackGame
         attribute :pay, Boolean
+        attribute :web_app, WebAppInfo
       end
     end
   end
